@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: #191919;
+    width: 1440px;
+    height: 119px;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+
+    gap: 777px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+
+    color: #FFF;
+    font-family: "DM Sans";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 158.824% */
+}
+
+nav ul a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+nav ul a.active {
+    color: #118DA8;
+}
